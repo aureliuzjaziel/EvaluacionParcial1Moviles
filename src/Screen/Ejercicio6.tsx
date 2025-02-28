@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
 
     },
     caja1: {
-        flex: 1,
+        
         borderWidth: 5,
         borderColor: 'white',
         width: 100,
@@ -36,27 +36,29 @@ const styles = StyleSheet.create({
         
         
         
+        
     },
     caja2: {
-        flex: 1,
+        
         borderWidth: 5,
         borderColor: 'white',
-        //width: 50,
+        width: 100,
         height: 'auto',
         backgroundColor: 'orange',
-        
-        //alignSelf: 'center',
+        position: 'relative',
+        left: 50,
         
         
     },
     caja3: {
-        flex: 1,
+        
         borderWidth: 5,
         borderColor: 'white',
         width: 100,
         height: 'auto',
         backgroundColor: 'cyan',
-        
+        position: 'relative',
+        right: -92,
         
         
     },

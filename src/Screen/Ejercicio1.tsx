@@ -27,7 +27,7 @@ const Ejercicio1 = () => {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.titulo}>Ejercicio 4</Text>
+            <Text style={styles.titulo}>Ejercicio 1</Text>
             <Text style={styles.titulo}>BIENVENIDO</Text>
             <Text style={styles.texto}>Vector: {numeros.join(', ')}</Text>
             <Button title="CLASIFICAR" onPress={clasificarNumeros} />
